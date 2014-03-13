@@ -21,6 +21,7 @@
 		AAD196BA18D12EF70046A28D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD1969C18D12EF70046A28D /* UIKit.framework */; };
 		AAD196C218D12EF70046A28D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAD196C018D12EF70046A28D /* InfoPlist.strings */; };
 		AAD196C418D12EF70046A28D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD196C318D12EF70046A28D /* Git_TestTests.m */; };
+		AAD196CF18D1B2280046A28D /* DDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD196CE18D1B2280046A28D /* DDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AAD196BF18D12EF70046A28D /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		AAD196C118D12EF70046A28D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAD196C318D12EF70046A28D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AAD196CD18D1B2280046A28D /* DDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTest.h; sourceTree = "<group>"; };
+		AAD196CE18D1B2280046A28D /* DDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		AAD1968C18D12EF70046A28D = {
 			isa = PBXGroup;
 			children = (
+				AAD196CD18D1B2280046A28D /* DDTest.h */,
+				AAD196CE18D1B2280046A28D /* DDTest.m */,
 				AAD1969E18D12EF70046A28D /* Git Test */,
 				AAD196BD18D12EF70046A28D /* Git TestTests */,
 				AAD1969718D12EF70046A28D /* Frameworks */,
@@ -253,6 +258,7 @@
 				AAD196A918D12EF70046A28D /* DDAppDelegate.m in Sources */,
 				AAD196AF18D12EF70046A28D /* DDViewController.m in Sources */,
 				AAD196A518D12EF70046A28D /* main.m in Sources */,
+				AAD196CF18D1B2280046A28D /* DDTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				AAD196C918D12EF70046A28D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAD196CA18D12EF70046A28D /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				AAD196CC18D12EF70046A28D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
